@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "@byndyusoft/eslint-config/header-apache-2.0",
+    "@byndyusoft/eslint-config/javascript",
+    "@byndyusoft/eslint-config/node",
+    "plugin:prettier/recommended"
+  ]
+}

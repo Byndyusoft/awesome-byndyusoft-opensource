@@ -1,0 +1,49 @@
+{
+  "name": "@byndyusoft/base-template",
+  "version": "0.0.0-development",
+  "description": "Base template for Node.js packages",
+  "homepage": "https://github.com/Byndyusoft/node-base-template#readme",
+  "bugs": {
+    "url": "https://github.com/Byndyusoft/node-base-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Byndyusoft/node-base-template.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Byndyusoft",
+  "scripts": {
+    "build": "echo '(・_・)ノ'",
+    "lint": "yarn run lint:eslint && yarn run lint:markdown && yarn run lint:prettier",
+    "lint:fix": "yarn run lint:eslint:fix && yarn run lint:markdown:fix && yarn run lint:prettier:fix",
+    "lint:eslint": "eslint --ignore-path ./.gitignore --max-warnings 0 --ext .ts,.js .",
+    "lint:eslint:fix": "eslint --ignore-path ./.gitignore --fix --ext .ts,.js .",
+    "lint:markdown": "markdownlint --ignore-path ./.gitignore \"./**/*.md\"",
+    "lint:markdown:fix": "markdownlint --ignore-path ./.gitignore --fix \"./**/*.md\"",
+    "lint:prettier": "prettier --ignore-path ./.gitignore --check \"./**/*.{ts,js,json,yaml,yml,md}\"",
+    "lint:prettier:fix": "prettier --ignore-path ./.gitignore --write \"./**/*.{ts,js,json,yaml,yml,md}\"",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pinst --disable",
+    "test:cov": "echo '╮(˘､˘)╭'"
+  },
+  "devDependencies": {
+    "@byndyusoft/eslint-config": "^1.1.0",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "markdownlint-cli": "^0.28.1",
+    "pinst": "^2.1.6",
+    "prettier": "^2.4.1",
+    "prettier-plugin-packagejson": "^2.2.12",
+    "semantic-release": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
