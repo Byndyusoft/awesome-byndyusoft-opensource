@@ -1,0 +1,79 @@
+'
+' Copyright 2021 Byndyusoft
+'
+' Licensed under the Apache License, Version 2.0 (the "License");
+' you may not use this file except in compliance with the License.
+' You may obtain a copy of the License at
+'
+'     http://www.apache.org/licenses/LICENSE-2.0
+'
+' Unless required by applicable law or agreed to in writing, software
+' distributed under the License is distributed on an "AS IS" BASIS,
+' WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+' See the License for the specific language governing permissions and
+' limitations under the License.
+'
+
+@startuml nodejs
+
+!include common.puml
+
+folder "Using in modern projects" {
+  TEMPLATE("nest-template")
+  TEMPLATE("node-base-template")
+  TEMPLATE("node-typescript-template")
+  TEMPLATE("pg-migrator-template")
+
+  PACKAGE("class-validator-extended")
+  PACKAGE("eslint-config")
+  PACKAGE("nest-dynamic-module")
+  PACKAGE("nest-opentracing")
+  PACKAGE("node-casc")
+  PACKAGE("node-pino-logger-factory")
+  PACKAGE("tsconfig")
+}
+
+folder "Work in progress" {
+  TEMPLATE("nodejs-integration-tests-template")
+}
+
+folder "Using in legacy projects" {
+  PACKAGE("grpc-timeouts")
+  PACKAGE("grpc-tools")
+}
+
+' nest-template
+EXTENDS("nest-template", "node-typescript-template")
+USE("nest-template", "class-validator-extended")
+USE("nest-template", "nest-dynamic-module")
+USE("nest-template", "nest-opentracing")
+USE("nest-template", "node-casc")
+USE("nest-template", "node-pino-logger-factory")
+
+' node-base-template
+USE("node-base-template", "eslint-config")
+
+' node-typescript-template
+EXTENDS("node-typescript-template", "node-base-template")
+USE("node-typescript-template", "tsconfig")
+
+' pg-migrator-template
+EXTENDS("pg-migrator-template", "node-base-template")
+USE("pg-migrator-template", "node-casc")
+
+' class-validator-extended
+EXTENDS("class-validator-extended", "node-typescript-template")
+
+' nest-dynamic-module
+EXTENDS("nest-dynamic-module", "node-typescript-template")
+
+' nest-opentracing
+USE("nest-opentracing", "nest-dynamic-module")
+
+' tsconfig
+EXTENDS("tsconfig", "node-base-template")
+
+' grpc-timeouts
+USE("grpc-timeouts", "eslint-config")
+
+@enduml
