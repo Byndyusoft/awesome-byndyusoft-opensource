@@ -1,0 +1,36 @@
+name: plantuml workflow
+
+on: push
+
+jobs:
+  plantuml:
+    name: plantuml
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: install java
+        uses: actions/setup-java@v2
+        with:
+          java-version: "17"
+          distribution: temurin
+
+      - name: install graphviz
+        run: |
+          sudo apt-get update
+          sudo apt-get install graphviz
+
+      - name: download plantuml
+        run: wget -O /opt/plantuml.jar https://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+
+      - name: generate svg diagrams
+        run: java -jar /opt/plantuml.jar -tsvg "./docs/*.puml"
+
+      - name: push svg diagrams
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "docs: render PlantUML files"
+          file_pattern: ./docs/*.svg
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
