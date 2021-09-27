@@ -37,7 +37,7 @@
     "markdownlint-cli": "^0.28.1",
     "pinst": "^2.1.6",
     "prettier": "^2.4.1",
-    "prettier-plugin-packagejson": "^2.2.12",
+    "prettier-plugin-packagejson": "^2.2.13",
     "semantic-release": "^18.0.0"
   },
   "engines": {
