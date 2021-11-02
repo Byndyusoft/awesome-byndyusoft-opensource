@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
-    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/config-conventional": "^14.1.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.2.0",
     "markdownlint-cli": "^0.29.0",
