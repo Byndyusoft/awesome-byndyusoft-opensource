@@ -22,7 +22,6 @@ folder "Using in modern projects" {
   TEMPLATE("nest-template")
   TEMPLATE("node-base-template")
   TEMPLATE("node-typescript-template")
-  TEMPLATE("pg-migrator-template")
 
   PACKAGE("class-validator-extended")
   PACKAGE("eslint-config")
@@ -47,7 +46,6 @@ EXTENDS("nest-template", "node-typescript-template")
 USE("nest-template", "class-validator-extended")
 USE("nest-template", "nest-dynamic-module")
 USE("nest-template", "nest-opentracing")
-USE("nest-template", "node-casc")
 USE("nest-template", "node-pino-logger-factory")
 
 ' node-base-template
@@ -56,10 +54,6 @@ USE("node-base-template", "eslint-config")
 ' node-typescript-template
 EXTENDS("node-typescript-template", "node-base-template")
 USE("node-typescript-template", "tsconfig")
-
-' pg-migrator-template
-EXTENDS("pg-migrator-template", "node-base-template")
-USE("pg-migrator-template", "node-casc")
 
 ' class-validator-extended
 EXTENDS("class-validator-extended", "node-typescript-template")
