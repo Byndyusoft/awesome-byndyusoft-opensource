@@ -17,7 +17,6 @@ Awesome list of Byndyusoft Open Source.
 - [nest-template](https://github.com/Byndyusoft/nest-template) - Base template for NestJS applications
 - [node-base-template](https://github.com/Byndyusoft/node-base-template) - Base template for Node.js packages
 - [node-typescript-template](https://github.com/Byndyusoft/node-typescript-template) - Base template for TypeScript packages
-- [pg-migrator-template](https://github.com/Byndyusoft/pg-migrator-template) - Template for PostgreSQL migrators
 
 #### Packages
 
