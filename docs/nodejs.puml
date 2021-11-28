@@ -27,6 +27,7 @@ folder "Using in modern projects" {
   PACKAGE("eslint-config")
   PACKAGE("nest-dynamic-module")
   PACKAGE("nest-opentracing")
+  PACKAGE("nest-swagger")
   PACKAGE("node-casc")
   PACKAGE("node-pino-logger-factory")
   PACKAGE("tsconfig")
@@ -46,6 +47,7 @@ EXTENDS("nest-template", "node-typescript-template")
 USE("nest-template", "class-validator-extended")
 USE("nest-template", "nest-dynamic-module")
 USE("nest-template", "nest-opentracing")
+USE("nest-template", "nest-swagger")
 USE("nest-template", "node-pino-logger-factory")
 
 ' node-base-template
@@ -63,6 +65,9 @@ EXTENDS("nest-dynamic-module", "node-typescript-template")
 
 ' nest-opentracing
 USE("nest-opentracing", "nest-dynamic-module")
+
+' nest-swagger
+EXTENDS("nest-swagger", "node-base-template")
 
 ' tsconfig
 EXTENDS("tsconfig", "node-base-template")
