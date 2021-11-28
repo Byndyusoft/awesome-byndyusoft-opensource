@@ -24,6 +24,7 @@ Awesome list of Byndyusoft Open Source.
 - [eslint-config](https://github.com/Byndyusoft/eslint-config) - Shareable config for eslint
 - [nest-dynamic-module](https://github.com/Byndyusoft/nest-dynamic-module) - DynamicModule helper for NestJS
 - [nest-opentracing](https://github.com/Byndyusoft/nest-opentracing) - Implementation of Distributed Tracing for NestJS
+- [nest-swagger](https://github.com/Byndyusoft/nest-swagger) - Patches for @nestjs/swagger
 - [node-casc](https://github.com/Byndyusoft/node-casc) - Configuration as Code solution for Node.js (and not just)
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
