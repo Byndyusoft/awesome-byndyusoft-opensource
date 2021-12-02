@@ -1,7 +1,6 @@
 # awesome-byndyusoft-opensource
 
 [![test workflow](https://github.com/Byndyusoft/awesome-byndyusoft-opensource/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/awesome-byndyusoft-opensource/actions/workflows/test.yaml)
-[![plantuml workflow](https://github.com/Byndyusoft/awesome-byndyusoft-opensource/actions/workflows/plantuml.yaml/badge.svg?branch=master)](https://github.com/Byndyusoft/awesome-byndyusoft-opensource/actions/workflows/plantuml.yaml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Awesome list of Byndyusoft Open Source.
