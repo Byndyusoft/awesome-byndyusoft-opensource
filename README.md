@@ -25,6 +25,7 @@ Awesome list of Byndyusoft Open Source.
 - [nest-opentracing](https://github.com/Byndyusoft/nest-opentracing) - Implementation of Distributed Tracing for NestJS
 - [nest-swagger](https://github.com/Byndyusoft/nest-swagger) - Patches for @nestjs/swagger
 - [node-casc](https://github.com/Byndyusoft/node-casc) - Configuration as Code solution for Node.js (and not just)
+- [node-dto-factory](https://github.com/Byndyusoft/node-dto-factory) - Factory to generate various DTO for unit tests
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
 

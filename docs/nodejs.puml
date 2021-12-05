@@ -29,6 +29,7 @@ folder "Using in modern projects" {
   PACKAGE("nest-opentracing")
   PACKAGE("nest-swagger")
   PACKAGE("node-casc")
+  PACKAGE("node-dto-factory")
   PACKAGE("node-pino-logger-factory")
   PACKAGE("tsconfig")
 }
@@ -48,6 +49,7 @@ USE("nest-template", "class-validator-extended")
 USE("nest-template", "nest-dynamic-module")
 USE("nest-template", "nest-opentracing")
 USE("nest-template", "nest-swagger")
+USE("nest-template", "node-dto-factory")
 USE("nest-template", "node-pino-logger-factory")
 
 ' node-base-template
@@ -68,6 +70,9 @@ USE("nest-opentracing", "nest-dynamic-module")
 
 ' nest-swagger
 EXTENDS("nest-swagger", "node-base-template")
+
+' node-dto-factory
+EXTENDS("node-dto-factory", "node-typescript-template")
 
 ' tsconfig
 EXTENDS("tsconfig", "node-base-template")
