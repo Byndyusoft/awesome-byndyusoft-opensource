@@ -74,6 +74,9 @@ EXTENDS("nest-swagger", "node-base-template")
 ' node-dto-factory
 EXTENDS("node-dto-factory", "node-typescript-template")
 
+' node-pino-logger-factory
+EXTENDS("node-pino-logger-factory", "node-typescript-template")
+
 ' tsconfig
 EXTENDS("tsconfig", "node-base-template")
 
