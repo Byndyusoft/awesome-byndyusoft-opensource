@@ -27,6 +27,7 @@ skinparam  {
 !define TEMPLATE($repo) REPOSITORY($repo) #C0E1FB
 !define PACKAGE($repo) REPOSITORY($repo) #FEEEB7
 !define DOCUMENTATION($repo) REPOSITORY($repo) #FFFFFF
+!define INFRA($repo) REPOSITORY($repo) #D3F3BE
 
 !define EXTENDS($child, $parent) ($parent) <|-- ($child)
 !define USE($repo, $package) ($package) <.. ($repo)
