@@ -8,7 +8,7 @@ entity stylelint-config--><a href="https://github.com/Byndyusoft/stylelint-confi
 entity ui-testing-template--><a href="https://github.com/Byndyusoft/ui-testing-template" target="_blank" title="https://github.com/Byndyusoft/ui-testing-template" xlink:actuate="onRequest" xlink:href="https://github.com/Byndyusoft/ui-testing-template" xlink:show="new" xlink:title="https://github.com/Byndyusoft/ui-testing-template" xlink:type="simple"><rect fill="#C0E1FB" filter="url(#fxdxhd0i7xxi9)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="151" x="271.5" y="154.643"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="281.5" y="177.6381">ui-testing-template</text></a><!--MD5=[975d8ab23671437b8cab89a3a1832371]
 reverse link eslint-config to cra-template--><path d="M302.43,82.543 C287.9,91.433 270.59,102.053 255,111.643 C231.56,126.073 204.98,142.523 185.58,154.543 " fill="none" id="eslint-config-backto-cra-template" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="306.84,79.843,297.0724,81.1057,302.569,82.4427,301.232,87.9393,306.84,79.843" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f9ceb80cc845214ff24bcc178b972c7b]
 reverse link stylelint-config to cra-template--><path d="M155.61,84.683 C156.17,105.243 157.01,135.503 157.52,154.373 " fill="none" id="stylelint-config-backto-cra-template" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="155.47,79.673,151.7287,88.7835,155.6128,84.6709,159.7254,88.5551,155.47,79.673" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a6c5013a0bd968572fae65877be6104e]
-reverse link eslint-config to ui-testing-template--><path d="M337.43,84.683 C339.69,105.243 343.02,135.503 345.1,154.373 " fill="none" id="eslint-config-backto-ui-testing-template" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="336.88,79.673,333.8806,89.054,337.4228,84.6434,341.8333,88.1856,336.88,79.673" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[668ec7bfddc8156d8df505b297e08925]
+reverse link eslint-config to ui-testing-template--><path d="M337.43,84.683 C339.69,105.243 343.02,135.503 345.1,154.373 " fill="none" id="eslint-config-backto-ui-testing-template" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="336.88,79.673,333.8806,89.054,337.4228,84.6434,341.8333,88.1856,336.88,79.673" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bcd9f6fb1f7e73a577323100a1328769]
 @startuml frontend
 
 !include common.puml
@@ -70,7 +70,7 @@ folder "Work in progress" {
 
 @enduml
 
-PlantUML version 1.2021.16(Wed Dec 08 17:25:22 UTC 2021)
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 UTC 2022)
 (GPL source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
