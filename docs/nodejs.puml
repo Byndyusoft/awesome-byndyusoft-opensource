@@ -32,6 +32,8 @@ folder "Using in modern projects" {
   PACKAGE("node-dto-factory")
   PACKAGE("node-pino-logger-factory")
   PACKAGE("tsconfig")
+
+  INFRA("node-reusable-workflows")
 }
 
 folder "Work in progress" {
@@ -82,5 +84,8 @@ EXTENDS("tsconfig", "node-base-template")
 
 ' grpc-timeouts
 USE("grpc-timeouts", "eslint-config")
+
+' node-reusable-workflows
+EXTENDS("node-reusable-workflows", "node-base-template")
 
 @enduml

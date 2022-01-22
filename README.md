@@ -29,6 +29,10 @@ Awesome list of Byndyusoft Open Source.
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
 
+#### Infrastructure
+
+- [node-reusable-workflows](https://github.com/Byndyusoft/node-reusable-workflows) - Reusable workflows for Node.js
+
 ### Work in progress
 
 #### Templates
