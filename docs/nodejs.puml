@@ -31,6 +31,7 @@ folder "Using in modern projects" {
   PACKAGE("node-casc")
   PACKAGE("node-dto-factory")
   PACKAGE("node-pino-logger-factory")
+  PACKAGE("node-sonar-coverage-reporter")
   PACKAGE("tsconfig")
 
   INFRA("node-reusable-workflows")
@@ -53,6 +54,7 @@ USE("nest-template", "nest-opentracing")
 USE("nest-template", "nest-swagger")
 USE("nest-template", "node-dto-factory")
 USE("nest-template", "node-pino-logger-factory")
+USE("nest-template", "node-sonar-coverage-reporter")
 
 ' node-base-template
 USE("node-base-template", "eslint-config")
@@ -78,6 +80,9 @@ EXTENDS("node-dto-factory", "node-typescript-template")
 
 ' node-pino-logger-factory
 EXTENDS("node-pino-logger-factory", "node-typescript-template")
+
+' node-sonar-coverage-reporter
+EXTENDS("node-sonar-coverage-reporter", "node-typescript-template")
 
 ' tsconfig
 EXTENDS("tsconfig", "node-base-template")
