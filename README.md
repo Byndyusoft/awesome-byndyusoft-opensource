@@ -27,6 +27,7 @@ Awesome list of Byndyusoft Open Source.
 - [node-casc](https://github.com/Byndyusoft/node-casc) - Configuration as Code solution for Node.js (and not just)
 - [node-dto-factory](https://github.com/Byndyusoft/node-dto-factory) - Factory to generate various DTO for unit tests
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
+- [node-sonar-coverage-reporter](https://github.com/Byndyusoft/node-sonar-coverage-reporter) - SonarQube coverage reporter for Istanbul
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
 
 #### Infrastructure
