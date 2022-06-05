@@ -26,6 +26,7 @@ folder "Using in modern projects" {
   PACKAGE("class-validator-extended")
   PACKAGE("eslint-config")
   PACKAGE("nest-dynamic-module")
+  PACKAGE("nest-kafka")
   PACKAGE("nest-opentracing")
   PACKAGE("nest-swagger")
   PACKAGE("node-casc")
@@ -68,6 +69,12 @@ EXTENDS("class-validator-extended", "node-typescript-template")
 
 ' nest-dynamic-module
 EXTENDS("nest-dynamic-module", "node-typescript-template")
+
+' nest-kafka
+EXTENDS("nest-kafka", "node-typescript-template")
+USE("nest-kafka", "class-validator-extended")
+USE("nest-kafka", "nest-dynamic-module")
+USE("nest-kafka", "nest-opentracing")
 
 ' nest-opentracing
 USE("nest-opentracing", "nest-dynamic-module")

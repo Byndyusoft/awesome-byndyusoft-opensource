@@ -22,6 +22,7 @@ Awesome list of Byndyusoft Open Source.
 - [class-validator-extended](https://github.com/Byndyusoft/class-validator-extended) - Additional decorators for class-validator and class-transformer
 - [eslint-config](https://github.com/Byndyusoft/eslint-config) - Shareable config for eslint
 - [nest-dynamic-module](https://github.com/Byndyusoft/nest-dynamic-module) - DynamicModule helper for NestJS
+- [nest-kafka](https://github.com/Byndyusoft/nest-kafka) - Kafka for NestJS
 - [nest-opentracing](https://github.com/Byndyusoft/nest-opentracing) - Implementation of Distributed Tracing for NestJS
 - [nest-swagger](https://github.com/Byndyusoft/nest-swagger) - Patches for @nestjs/swagger
 - [node-casc](https://github.com/Byndyusoft/node-casc) - Configuration as Code solution for Node.js (and not just)
