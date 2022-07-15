@@ -34,6 +34,7 @@ Awesome list of Byndyusoft Open Source.
 
 #### Infrastructure
 
+- [node-renovate-config](https://github.com/Byndyusoft/node-renovate-config) - Renovate config for Node.js
 - [node-reusable-workflows](https://github.com/Byndyusoft/node-reusable-workflows) - Reusable workflows for Node.js
 
 ### Work in progress

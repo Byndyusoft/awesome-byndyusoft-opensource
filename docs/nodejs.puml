@@ -36,6 +36,7 @@ folder "Using in modern projects" {
   PACKAGE("node-sonar-coverage-reporter")
   PACKAGE("tsconfig")
 
+  INFRA("node-renovate-config")
   INFRA("node-reusable-workflows")
 }
 
@@ -102,6 +103,9 @@ EXTENDS("tsconfig", "node-base-template")
 
 ' grpc-timeouts
 USE("grpc-timeouts", "eslint-config")
+
+' node-renovate-config
+EXTENDS("node-renovate-config", "node-base-template")
 
 ' node-reusable-workflows
 EXTENDS("node-reusable-workflows", "node-base-template")
