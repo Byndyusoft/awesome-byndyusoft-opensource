@@ -29,7 +29,7 @@
     "lint-staged": "^12.1.2",
     "markdownlint-cli": "^0.30.0",
     "prettier": "^2.5.1",
-    "prettier-plugin-packagejson": "^2.2.15"
+    "prettier-plugin-packagejson": "^2.3.0"
   },
   "engines": {
     "node": ">=14"
