@@ -26,6 +26,7 @@ skinparam  {
 !define REPOSITORY($repo) rectangle "$repo" [[/$repo]]
 !define TEMPLATE($repo) REPOSITORY($repo) #C0E1FB
 !define PACKAGE($repo) REPOSITORY($repo) #FEEEB7
+!define FORK($repo) REPOSITORY($repo) #EBEBEB
 !define DOCUMENTATION($repo) REPOSITORY($repo) #FFFFFF
 !define INFRA($repo) REPOSITORY($repo) #D3F3BE
 

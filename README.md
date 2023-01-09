@@ -25,12 +25,16 @@ Awesome list of Byndyusoft Open Source.
 - [nest-http-client](https://github.com/Byndyusoft/nest-http-client) - axios for NestJS
 - [nest-kafka](https://github.com/Byndyusoft/nest-kafka) - Kafka for NestJS
 - [nest-opentracing](https://github.com/Byndyusoft/nest-opentracing) - Implementation of Distributed Tracing for NestJS
-- [nest-swagger](https://github.com/Byndyusoft/nest-swagger) - Patches for @nestjs/swagger
 - [node-casc](https://github.com/Byndyusoft/node-casc) - Configuration as Code solution for Node.js (and not just)
 - [node-dto-factory](https://github.com/Byndyusoft/node-dto-factory) - Factory to generate various DTO for unit tests
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
 - [node-sonar-coverage-reporter](https://github.com/Byndyusoft/node-sonar-coverage-reporter) - SonarQube coverage reporter for Istanbul
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
+
+#### Forks
+
+- [nest-pino](nest-pino) - Patches for nestjs-pino
+- [nest-swagger](https://github.com/Byndyusoft/nest-swagger) - Patches for @nestjs/swagger
 
 #### Infrastructure
 
