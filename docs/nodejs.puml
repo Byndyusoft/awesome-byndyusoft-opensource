@@ -29,12 +29,14 @@ folder "Using in modern projects" {
   PACKAGE("nest-http-client")
   PACKAGE("nest-kafka")
   PACKAGE("nest-opentracing")
-  PACKAGE("nest-swagger")
   PACKAGE("node-casc")
   PACKAGE("node-dto-factory")
   PACKAGE("node-pino-logger-factory")
   PACKAGE("node-sonar-coverage-reporter")
   PACKAGE("tsconfig")
+
+  FORK("nest-pino")
+  FORK("nest-swagger")
 
   INFRA("node-renovate-config")
   INFRA("node-reusable-workflows")
@@ -55,6 +57,7 @@ USE("nest-template", "class-validator-extended")
 USE("nest-template", "nest-dynamic-module")
 USE("nest-template", "nest-http-client")
 USE("nest-template", "nest-opentracing")
+USE("nest-template", "nest-pino")
 USE("nest-template", "nest-swagger")
 USE("nest-template", "node-dto-factory")
 USE("nest-template", "node-pino-logger-factory")
@@ -82,12 +85,10 @@ EXTENDS("nest-kafka", "node-typescript-template")
 USE("nest-kafka", "class-validator-extended")
 USE("nest-kafka", "nest-dynamic-module")
 USE("nest-kafka", "nest-opentracing")
+USE("nest-kafka", "nest-pino")
 
 ' nest-opentracing
 USE("nest-opentracing", "nest-dynamic-module")
-
-' nest-swagger
-EXTENDS("nest-swagger", "node-base-template")
 
 ' node-dto-factory
 EXTENDS("node-dto-factory", "node-typescript-template")
@@ -101,13 +102,19 @@ EXTENDS("node-sonar-coverage-reporter", "node-typescript-template")
 ' tsconfig
 EXTENDS("tsconfig", "node-base-template")
 
-' grpc-timeouts
-USE("grpc-timeouts", "eslint-config")
+' nest-pino
+EXTENDS("nest-pino", "node-base-template")
+
+' nest-swagger
+EXTENDS("nest-swagger", "node-base-template")
 
 ' node-renovate-config
 EXTENDS("node-renovate-config", "node-base-template")
 
 ' node-reusable-workflows
 EXTENDS("node-reusable-workflows", "node-base-template")
+
+' grpc-timeouts
+USE("grpc-timeouts", "eslint-config")
 
 @enduml
