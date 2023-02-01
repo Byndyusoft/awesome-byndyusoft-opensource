@@ -33,7 +33,7 @@ Awesome list of Byndyusoft Open Source.
 
 #### Forks
 
-- [nest-pino](nest-pino) - Patches for nestjs-pino
+- [nest-pino](https://github.com/Byndyusoft/nest-pino) - Patches for nestjs-pino
 - [nest-swagger](https://github.com/Byndyusoft/nest-swagger) - Patches for @nestjs/swagger
 
 #### Infrastructure
