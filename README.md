@@ -30,6 +30,7 @@ Awesome list of Byndyusoft Open Source.
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
 - [node-sonar-coverage-reporter](https://github.com/Byndyusoft/node-sonar-coverage-reporter) - SonarQube coverage reporter for Istanbul
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
+- [bpmnlint-plugin-custom-linter-rules](https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules) - Custom rules for [bpmnlint](https://github.com/bpmn-io/bpmnlint)
 
 #### Forks
 
