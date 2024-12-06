@@ -19,18 +19,19 @@ Awesome list of Byndyusoft Open Source.
 
 #### Packages
 
+- [bpmnlint-plugin-custom-linter-rules](https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules) - Custom rules for [bpmnlint](https://github.com/bpmn-io/bpmnlint)
 - [class-validator-extended](https://github.com/Byndyusoft/class-validator-extended) - Additional decorators for class-validator and class-transformer
 - [eslint-config](https://github.com/Byndyusoft/eslint-config) - Shareable config for eslint
 - [nest-dynamic-module](https://github.com/Byndyusoft/nest-dynamic-module) - DynamicModule helper for NestJS
 - [nest-http-client](https://github.com/Byndyusoft/nest-http-client) - axios for NestJS
 - [nest-kafka](https://github.com/Byndyusoft/nest-kafka) - Kafka for NestJS
 - [nest-opentracing](https://github.com/Byndyusoft/nest-opentracing) - Implementation of Distributed Tracing for NestJS
+- [nest-prometheus](https://github.com/Byndyusoft/nest-prometheus) - Module for Nests with http_requests metric for Prometheus
 - [node-casc](https://github.com/Byndyusoft/node-casc) - Configuration as Code solution for Node.js (and not just)
 - [node-dto-factory](https://github.com/Byndyusoft/node-dto-factory) - Factory to generate various DTO for unit tests
 - [node-pino-logger-factory](https://github.com/Byndyusoft/node-pino-logger-factory) - Logger factory for pino
 - [node-sonar-coverage-reporter](https://github.com/Byndyusoft/node-sonar-coverage-reporter) - SonarQube coverage reporter for Istanbul
 - [tsconfig](https://github.com/Byndyusoft/tsconfig) - TSConfig for Byndyusoft projects
-- [bpmnlint-plugin-custom-linter-rules](https://github.com/Byndyusoft/bpmnlint-plugin-custom-linter-rules) - Custom rules for [bpmnlint](https://github.com/bpmn-io/bpmnlint)
 
 #### Forks
 

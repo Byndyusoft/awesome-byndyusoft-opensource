@@ -29,6 +29,7 @@ folder "Using in modern projects" {
   PACKAGE("nest-http-client")
   PACKAGE("nest-kafka")
   PACKAGE("nest-opentracing")
+  PACKAGE("nest-prometheus")
   PACKAGE("node-casc")
   PACKAGE("node-dto-factory")
   PACKAGE("node-pino-logger-factory")
@@ -89,6 +90,9 @@ USE("nest-kafka", "nest-pino")
 
 ' nest-opentracing
 USE("nest-opentracing", "nest-dynamic-module")
+
+' nest-prometheus
+EXTENDS("nest-prometheus", "node-typescript-template")
 
 ' node-dto-factory
 EXTENDS("node-dto-factory", "node-typescript-template")
